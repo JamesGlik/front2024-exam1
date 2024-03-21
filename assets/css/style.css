@@ -132,7 +132,7 @@ select {
 }
 
 .image-section .content h1 {
-    font-size: 32px;
+    font-size: 31px;
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -273,13 +273,16 @@ select {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    margin-top:80px;
 }
 
 .left-links, .middle-links, .right-links {
     display: flex;
     gap: 24px;
+    font-size:14px;
+    font-weight:400;
     
 }
 
@@ -298,6 +301,8 @@ select {
     text-align: center;
     width: 100%;
     color: #FFFFFF;
+    font-size:14px;
+    font-weight:400;
 }
 
 
@@ -385,24 +390,34 @@ select {
     }
 
     .footer-container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+    
+    .left-links {
+        width: 50%; 
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .left-links, .right-links {
-        align-items: flex-start;
+    .right-links {
+        width: 50%; 
+        display: flex;
         flex-direction: column;
+        align-items: flex-end;
     }
-
+    
     .middle-links {
         display: none;
     }
-
+    
     .footer-line {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
+    
     .copyright {
         text-align: center;
     }
