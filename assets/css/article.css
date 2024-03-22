@@ -325,6 +325,159 @@ select {
 
 
 
+
+.new-section {
+    display:flex;
+    max-width: 1920px;
+    margin: 70px 140px;
+    gap:44px;
+}
+    
+
+.img2-container {
+    max-width:810px;
+    max-height:732px;
+}
+
+.image2-container {
+    max-width: 810px;
+    max-height: 732px;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.background-container {
+    max-width: 810px;
+    width:100%; 
+    max-height: 732px;
+    height:100%; 
+    background-color: #F8F8F8;
+    padding: 40px;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.top-words {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green-word {
+    background-color: #29B24E;
+    padding: 5px 10px;
+    border-radius:15px;
+    color: white;
+}
+
+.transparent-word {
+    opacity: 0.7;
+    font-size:12px;
+    font-weight:500;
+}
+
+.background-container h1{
+    font-size:22px;
+    margin-top:29px;
+    margin-bottom:12px;
+    font-weight:600;
+}
+
+.background-container h2{
+    font-size:12px;
+    margin-top:12px;
+    margin-bottom:4px;
+    font-weight:400;
+}
+
+.background-container h3{
+    font-size:14px;
+    opacity: 0.7;
+    margin-bottom:32px;
+    font-weight:400;
+}
+
+.background-container p{
+    font-size:14px;
+    font-weight:400;
+}
+
+.line {
+    height: 1px;
+    background-color: #ECECEC;
+    border: none;
+    margin: 20px 0;
+}
+
+.random-words {
+    display:flex;
+    gap:24px;
+}
+
+.description-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+}
+
+.column li {
+    font-size:14px;
+    font-weight:500;
+}
+
+.info {
+    opacity: 0.7;
+    font-size:12px;
+    font-weight:400;
+    margin-top:12px;
+}
+
+.info-text {
+    margin-top: 4px;
+    margin-bottom:16px;
+    font-size:14px;
+    font-weight:400;
+    margin-top:12px;
+
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.price {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.call-button {
+    background-color: #29B24E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.message-button {
+    background-color: white;
+    color: #29B24E;
+    border: 1px solid #29B24E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
     .container {
         margin: 0 20px; 
@@ -504,6 +657,27 @@ select {
         display: none; 
     }
 
+    .new-section{
+        display:flex;
+        flex-wrap: wrap;
+        width:375px;
+        height:1060px;
+        margin-bottom:80px;
+        margin: 0 auto; 
+        width: 100%; 
+        justify-content: center;
+    }
     
+    .description-menu{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .background-container {
+        width:375px;
+        height:1060px;
+    }
     
 }
